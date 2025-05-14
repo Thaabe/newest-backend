@@ -9,7 +9,7 @@ dotenv.config();
 // Debug allowed origins
 const allowedOrigins = process.env.ALLOWED_ORIGINS 
   ? process.env.ALLOWED_ORIGINS.split(',') 
-  : ['http://localhost:5173'];
+  : ['http://localhost:5173','https://newest-frontend-grvb.vercel.app'];
 console.log('Allowed origins:', allowedOrigins);
 
 const app = express();
